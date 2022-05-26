@@ -1,0 +1,1 @@
+ @misc{ismail_2022, title={Synthethic Harumanis Image Generator Web Application v1}, url={https://demo.mobilepit.com/ai/fakeharumanis}, journal={MobilePit Demo}, publisher={github.com}, author={Ismail, Mohammad Hafiz}, year={2022}, month={Jan}} 

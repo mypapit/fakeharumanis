@@ -1,0 +1,55 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+img {
+  transition: filter 0.5s linear;
+}
+
+.file-group {
+  padding: 1rem;
+  background: #efefef;
+  border-radius: 1rem;
+}
+
+#image {
+  max-width: 90%;
+  width: 450px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.blur {
+  filter: blur(20px) grayscale(1);
+}
+
+.image-section {
+  display: none;
+  position: relative;
+}
+
+.image-loaded .image-section {
+  display: block;
+}
+
+.loading .loader {
+  display: block;
+}
+
+.loader {
+  display: none;
+}
+
+.showprobability {
+  display: none;
+}
+
+.loading .image-section,
+.loading .file-section {
+  display: none;
+}
+
+ul {
+  list-style-type: square;
+}
